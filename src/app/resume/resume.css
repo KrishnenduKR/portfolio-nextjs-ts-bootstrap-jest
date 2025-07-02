@@ -1,0 +1,76 @@
+
+.fa-icon-resume {
+      padding: 3px;
+      height: 15px;
+      width: 15px;
+      color:#6e5796;
+  }
+
+ .event-date{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 0 0 3px;
+    background-color: #4c6a2a;
+    padding: 5px 8px 5px 30px;
+    margin-left: -30px;
+    border-radius: 20px;
+ }
+
+ .resume:after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+ .column {
+    float: left;
+    width: 33.33%;
+    padding: 40px 10px 10px 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container{
+     padding-top: 40px;
+  }
+
+  .skill-container{
+    background-color: transparent;
+    border: 2px solid #6e5796;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 14px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .skill-percentage{
+    background-color: #022949;
+    border: 2px solid #4c6a2a;
+    border-radius: 9px;
+    height: 10px;
+    padding: 0;
+  }
+
+  .skill-percentage.skill1{
+     width:80%;
+  }
+  .skill-percentage.skill3{
+   width:60%;
+ }
+ .skill-percentage.skill4{
+   width:75%;
+ }
+ .skill-percentage.skill5{
+   width:70%;
+ }
+
+ li{
+    padding-left: 20px;
+ }
+
+  
