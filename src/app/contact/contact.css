@@ -28,6 +28,8 @@
 
  .btn-color{
     background-color: #6e5796;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
     color: white;
     border: none;
  }

@@ -56,7 +56,7 @@ export default function ContactPage() {
                     <textarea name="message" value={form.message} onChange={handleChange} className="form-control" rows={4} required />
                     </div>
 
-                    <button type="submit" className="btn btn-color">Send</button>
+                    <button type="submit" className="btn-color">Send</button>
                 </form>
 
             </div>
