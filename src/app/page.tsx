@@ -1,10 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { useRouter } from 'next/router';
+const basePath = '/portfolio-nextjs-ts-bootstrap-jest';
 
 export default function HomePage() {
-  const { basePath } = useRouter();
   return (
     <div className="container" style={{textAlign: 'center', padding: '20px'}}>
       <div className="row">
