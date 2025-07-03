@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out -b deploy"
+    "export": "next export",
+    "deploy": "gh-pages -d out -b release"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
