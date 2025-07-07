@@ -27,4 +27,57 @@ const resumeData = [
     },
 ]
 
+export const skillData = [
+    {
+        id: 1,
+        skillName: "React",
+        skilLevel: "1"
+    },
+    {
+        id: 2,
+        skillName: "Typescript/Javascript",
+        skilLevel: "1"
+    },
+    {
+        id: 3,
+        skillName: "Angular",
+        skilLevel: "1"
+    },
+    {
+        id: 4,
+        skillName: "NodeJs",
+        skilLevel: "1"
+    },
+    {
+        id: 5,
+        skillName: "Java",
+        skilLevel: "5"
+    },
+    {
+        id: 6,
+        skillName: "Jest",
+        skilLevel: "1"
+    },
+    {
+        id: 7,
+        skillName: "Python",
+        skilLevel: "3"
+    },
+    {
+        id: 8,
+        skillName: "C/C++",
+        skilLevel: "1"
+    },
+    {
+        id: 9,
+        skillName: "HTML",
+        skilLevel: "1"
+    },
+    {
+        id: 10,
+        skillName: "CSS",
+        skilLevel: "4"
+    },
+]
+
 export default resumeData;
