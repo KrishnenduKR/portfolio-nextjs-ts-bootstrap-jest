@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './resume.css'
-import { faClipboard, faBuilding, faStar } from '@fortawesome/free-solid-svg-icons';
+import ResumeSession from '@/components/ResumeSession';
+import resumeData from './data';
 
 export default function ResumePage() {
   return (
@@ -20,28 +20,15 @@ export default function ResumePage() {
      <div className="row mt-4">
         <div className="col-sm-4">
             <h5 >Education</h5>
-            <h6 className="event-date spacer"> 2016 - 2018</h6>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faClipboard}/>Master of Technology(MTech)</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faBuilding} />Rajagiri School of Engineering and Technology, Kerala, India</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faStar} />8.2 GPA</p>
+            <ResumeSession year="2016 - 2018" title="Master of Technology(MTech)" location="Rajagiri School of Engineering and Technology, Kerala, India" roleSummary="8.2 GPA"/>
          </div>
          <div className="col-sm-4">
             <h5 >Experience</h5>
-            <h6 className="event-date "> 2022 - </h6>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faClipboard} />
-                Software Engineer</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faBuilding} />Monopole Systems LLP, India</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faStar} />System monitoring</p>
-            <h6 className="event-date "> 2020 - 2022</h6>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faClipboard} />Software Engineer</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faBuilding} />Monopole Systems LLP</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faStar} />Development and unit testing</p>
-            <h6 className="event-date "> 2018 - 2019</h6>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faClipboard} />Associate Software Engineer</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faBuilding} />Innovature Software Labs Pvt. Ltd., India</p>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faStar} />Development and unit testing</p>
-            <h6 className="event-date "> 2019 - 2020</h6>
-            <p><FontAwesomeIcon className='fa-icon-resume' icon={faStar} />Self learning and Freelance works</p>  
+            {
+                resumeData.map((data)=> (
+                    <ResumeSession key={data.id} {...data} />
+                ))
+            }  
          </div>
          <div className="col-sm-4">
             <h5>Coding skills</h5>
