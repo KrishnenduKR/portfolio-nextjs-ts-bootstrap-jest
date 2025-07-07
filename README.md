@@ -4,16 +4,15 @@ View the deployed site in [https://portfolio-nextjs-ts-bootstrap-jest.vercel.app
 
 ## Getting Started
 
-First, run the development server:
+clone project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Insall dependencies
+-npm install
+
+run dev server
+-npm run dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result and modify the contents and styles according to your favour to change into your own portfolio site.
